@@ -13,7 +13,7 @@ const App = () => {
     
     for(var i = 0;i<input.length;i++){
     if(input[i].value.length == 0){
-    error.innerHTML = "<h1>All fields are mandatory"</h1>;
+    error.innerHTML = "<h1>All fields are mandatory</h1>";
       return;
     }
     }
